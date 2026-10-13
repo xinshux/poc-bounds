@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Tooling
+.idea/
+.vscode/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+
+# Generated output
+solutions/
+*.pdf
+*.png
+!docs/**/*.png
