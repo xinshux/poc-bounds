@@ -1,0 +1,8 @@
+# Pinned deliberately: sympy chooses which variables are free when it row-reduces,
+# and that choice has changed between releases, so an unpinned install reproduces
+# the mathematics but not the printed solutions.  See docs/open-issues.md.
+numpy==2.5.3
+sympy==1.14.0
+matplotlib==3.11.2
+tqdm==4.70.1
+prettytable==3.12.0

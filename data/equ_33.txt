@@ -1,0 +1,15 @@
+0xxx,py0x0
+1xxx,py1x0
+x0xx,py0x1
+x1xx,py1x1
+xx0x,py0x2
+xx1x,py1x2
+0xx0,px0y0
+1xx0,px0y1
+2xx0,px0y2
+x0x1,px1y0
+x1x1,px1y1
+x2x1,px1y2
+xx02,px2y0
+xx12,px2y1
+xxxx,1

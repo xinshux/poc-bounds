@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poc-bounds"
+version = "0.1.0"
+description = "Closed-form bounds on probabilities of causation"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Xin Shu", email = "xs24a@fsu.edu" }]
+dependencies = ["numpy", "sympy", "matplotlib", "tqdm", "prettytable"]
+
+[tool.setuptools.packages.find]
+include = ["pocbounds*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
